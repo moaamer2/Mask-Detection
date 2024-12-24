@@ -1,9 +1,10 @@
-*------Mask Detection Project------*
+## Mask Detection Project
 
 Overview:
 ---------
 
-This project is designed to detect whether individuals are wearing face masks using deep learning and computer vision. The system can be used in real-time applications, such as surveillance systems, to ensure compliance with health and safety protocols.
+This project is designed to detect whether individuals[README.md](https://github.com/user-attachments/files/18241315/README.md)
+ are wearing face masks using deep learning and computer vision. The system can be used in real-time applications, such as surveillance systems, to ensure compliance with health and safety protocols.
 
 ---
 Features
