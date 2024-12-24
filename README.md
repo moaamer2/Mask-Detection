@@ -34,7 +34,7 @@ This project is designed to detect whether individuals are wearing face masks us
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/moaamer2/Mask-Detection.git
-   cd mask-detection
+   
    ```
 
 2. **Create a Virtual Environment:**
@@ -59,21 +59,15 @@ This project is designed to detect whether individuals are wearing face masks us
      ```
 
 6. **Train the Model:**
-   - Train the model using the training script:
-     ```bash
-     python train_model.py
-     ```
-   - The trained model will be saved as `model.h5` in the `models/` directory.
+   - Train the model using the training script.    
+   - The trained model will be saved as `mask_detection_best.h5` in the `models/` directory.
 
 7. **Test the Model:**
-   - Evaluate the model on the test dataset:
-     ```bash
-     python test_model.py
-     ```
+   - Evaluate the model on the test dataset.
 
 8. **Run the Application:**
    ```bash
-   python app.py
+   app.py
    ```
 
 ---
