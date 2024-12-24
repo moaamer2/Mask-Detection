@@ -17,7 +17,7 @@ This project is designed to detect whether individuals are wearing face masks us
 #### Prerequisites
 
 1. **Hardware Requirements:**
-   - NVIDIA GPU with CUDA support.
+   - NVIDIA GPU with CUDA support ( GTX 1080 TI).
    - At least 8 GB of RAM (16 GB recommended).
 
 2. **Software Requirements:**
