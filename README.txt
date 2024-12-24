@@ -34,7 +34,7 @@ Prerequisites:
 - Installation Steps
 
 1. **Clone the Repository:**
-git clone https://github.com/your-repository/mask-detection.git
+git clone https://github.com/moaamer2/Mask-Detection.git
 cd mask-detection
 2. **Create a Virtual Environment:**
 python -m venv venv
@@ -55,10 +55,7 @@ python train_model.py
 - Evaluate the model on the test dataset:
 python test_model.py
 8. **Run the Application:**
-- Start the Flask web application for real-time mask detection:
-python app.py
-- Access the app in your browser at `http://localhost:5000`.
----
+
 
 Directory Structure
 mask-detection/
