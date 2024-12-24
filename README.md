@@ -1,22 +1,20 @@
 ## Mask Detection Project
 
-Overview:
----------
-
-This project is designed to detect whether individuals[README.md](https://github.com/user-attachments/files/18241315/README.md)
- are wearing face masks using deep learning and computer vision. The system can be used in real-time applications, such as surveillance systems, to ensure compliance with health and safety protocols.
+### Overview
+This project is designed to detect whether individuals are wearing face masks using deep learning and computer vision. The system can be used in real-time applications, such as surveillance systems, to ensure compliance with health and safety protocols.
 
 ---
-Features
+
+### Features
 - Real-time mask detection.
 - High accuracy using pre-trained models like MobileNetV2.
 - Scalable and deployable as a web application.
 
 ---
-Setup Instructions:
 
-Prerequisites:
----------------
+### Setup Instructions
+
+#### Prerequisites
 
 1. **Hardware Requirements:**
    - NVIDIA GPU with CUDA support.
@@ -30,36 +28,59 @@ Prerequisites:
      - NumPy
      - Matplotlib
      - Sklearn
-   
 
-- Installation Steps
+#### Installation Steps
 
 1. **Clone the Repository:**
-git clone https://github.com/moaamer2/Mask-Detection.git
-cd mask-detection
+   ```bash
+   git clone https://github.com/moaamer2/Mask-Detection.git
+   cd mask-detection
+   ```
+
 2. **Create a Virtual Environment:**
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
+
 3. **Install Dependencies:**
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 4. **Download the Dataset:**
-- Obtain the dataset from Kaggle or another reliable source.
-- Place the dataset in the `data/` directory.
+   - Obtain the dataset from Kaggle or another reliable source.
+   - Place the dataset in the `data/` directory.
+
 5. **Run Preprocessing:**
-- Resize, normalize, and augment images by running the preprocessing script:
-python preprocess_data.py
+   - Resize, normalize, and augment images by running the preprocessing script:
+     ```bash
+     python preprocess_data.py
+     ```
+
 6. **Train the Model:**
-- Train the model using the training script:
-python train_model.py
-- The trained model will be saved as `model.h5` in the `models/` directory.
+   - Train the model using the training script:
+     ```bash
+     python train_model.py
+     ```
+   - The trained model will be saved as `model.h5` in the `models/` directory.
+
 7. **Test the Model:**
-- Evaluate the model on the test dataset:
-python test_model.py
+   - Evaluate the model on the test dataset:
+     ```bash
+     python test_model.py
+     ```
+
 8. **Run the Application:**
+   ```bash
+   python app.py
+   ```
 
+---
 
-Directory Structure
+### Directory Structure
 
+```plaintext
 mask-detection/
 ├── data/
 │   └── New_Masks_Dataset/
@@ -70,11 +91,12 @@ mask-detection/
 ├── scripts/
 │   ├── preprocess_data.py
 │   └── train_model.py
-│   
 ├── app.py
-│
 └── README.md
+```
 
 ---
-Contribution
+
+### Contribution
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+
