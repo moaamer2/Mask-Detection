@@ -19,7 +19,7 @@ Prerequisites:
 ---------------
 
 1. **Hardware Requirements:**
-   - NVIDIA GPU with CUDA support (e.g., RTX 3060 or higher recommended).
+   - NVIDIA GPU with CUDA support.
    - At least 8 GB of RAM (16 GB recommended).
 
 2. **Software Requirements:**
@@ -61,7 +61,6 @@ python test_model.py
 Directory Structure
 
 mask-detection/
-
 ├── data/
 │   └── New_Masks_Dataset/
 │       ├── Train/
