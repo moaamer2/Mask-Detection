@@ -59,7 +59,9 @@ python test_model.py
 
 
 Directory Structure
+
 mask-detection/
+
 ├── data/
 │   └── New_Masks_Dataset/
 │       ├── Train/
@@ -73,6 +75,7 @@ mask-detection/
 ├── app.py
 │
 └── README.md
+
 ---
 Contribution
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
